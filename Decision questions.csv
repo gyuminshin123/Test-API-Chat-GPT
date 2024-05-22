@@ -1,0 +1,145 @@
+,Choice number,Smaller sooner amount ($),Smaller sooner delay (days),Larger later amount ($),Larger later delay (days),keq,Unnamed: 6,Unnamed: 7,Unnamed: 8,gpt_questions,gpt_raw_answers,SS or LL,binary_answer
+0,1,34,29,68,60,0.5,,,,Would you rather have $34 in 29 days or $68 in 60 days? Answer without explanation.,$68 in 60 days.,LL,1
+1,2,16,14,28,29,0.166666667,,,,Would you rather have $16 in 14 days or $28 in 29 days? Answer without explanation.,$28 in 29 days.,LL,1
+2,3,58,0,116,7,0.142857143,,,,Would you rather have $58 now or $116 in 7 days? Answer without explanation.,$116 in 7 days.,LL,1
+3,4,36,0,63,7,0.107142857,,,,Would you rather have $36 now or $63 in 7 days? Answer without explanation.,$63 in 7 days.,LL,1
+4,5,65,29,114,60,0.082491582,,,,Would you rather have $65 in 29 days or $114 in 60 days? Answer without explanation.,$114 in 60 days.,LL,1
+5,6,57,0,86,7,0.072681704,,,"
+",Would you rather have $57 now or $86 in 7 days? Answer without explanation.,$86 in 7 days.,LL,1
+6,7,62,0,124,14,0.071428571,,,,Would you rather have $62 now or $124 in 14 days? Answer without explanation.,$124 in 14 days.,LL,1
+7,8,29,14,44,29,0.066666667,,,,Would you rather have $29 in 14 days or $44 in 29 days? Answer without explanation.,$44 in 29 days.,LL,1
+8,9,28,0,49,14,0.053571429,,,,Would you rather have $28 now or $49 in 14 days? Answer without explanation.,$49 in 14 days.,LL,1
+9,10,72,0,97,7,0.049603175,,,,Would you rather have $72 now or $97 in 7 days? Answer without explanation.,$97 in 7 days.,LL,1
+10,11,50,14,68,29,0.036144578,,,,Would you rather have $50 in 14 days or $68 in 29 days? Answer without explanation.,$68 in 29 days.,LL,1
+11,12,20,0,30,14,0.035714286,,,,Would you rather have $20 now or $30 in 14 days? Answer without explanation.,$30 in 14 days.,LL,1
+12,13,29,0,36,7,0.034482759,,,,Would you rather have $29 now or $36 in 7 days? Answer without explanation.,$36 in 7 days.,LL,1
+13,14,79,0,158,29,0.034482759,,,,Would you rather have $79 now or $158 in 29 days? Answer without explanation.,$158 in 29 days.,LL,1
+14,15,33,29,50,60,0.032075472,,,,Would you rather have $33 in 29 days or $50 in 60 days? Answer without explanation.,$50 in 60 days.,LL,1
+15,16,39,14,78,60,0.03125,,,,Would you rather have $39 in 14 days or $78 in 60 days? Answer without explanation.,$78 in 60 days.,LL,1
+16,17,76,29,152,90,0.03125,,,,Would you rather have $76 in 29 days or $152 in 90 days? Answer without explanation.,$152 in 90 days.,LL,1
+17,18,34,0,41,7,0.029411765,,,,Would you rather have $34 now or $41 in 7 days? Answer without explanation.,$41 in 7 days.,LL,1
+18,19,53,0,93,29,0.026024723,,,,Would you rather have $53 now or $93 in 29 days? Answer without explanation.,$93 in 29 days.,LL,1
+19,20,42,0,57,14,0.025510204,,,,Would you rather have $42 now or $57 in 14 days? Answer without explanation.,$57 in 14 days.,LL,1
+20,21,83,14,104,29,0.022082019,,,,Would you rather have $83 in 14 days or $104 in 29 days? Answer without explanation.,$104 in 29 days.,LL,1
+21,22,80,14,140,60,0.021126761,,,,Would you rather have $80 in 14 days or $140 in 60 days? Answer without explanation.,$140 in 60 days.,LL,1
+22,23,69,0,79,7,0.020703934,,,,Would you rather have $69 now or $79 in 7 days? Answer without explanation.,$79 in 7 days.,LL,1
+23,24,80,29,140,90,0.01910828,,,,Would you rather have $80 in 29 days or $140 in 90 days? Answer without explanation.,$140 in 90 days.,LL,1
+24,25,59,0,74,14,0.018159806,,,,Would you rather have $59 now or $74 in 14 days? Answer without explanation.,$74 in 14 days.,LL,1
+25,26,40,0,60,29,0.017241379,,,,Would you rather have $40 now or $60 in 29 days? Answer without explanation.,$60 in 29 days.,LL,1
+26,27,53,14,64,29,0.017160686,,,,Would you rather have $53 in 14 days or $64 in 29 days? Answer without explanation.,$53 in 14 days.,SS,0
+27,28,20,0,40,60,0.016666667,,,,Would you rather have $20 now or $40 in 60 days? Answer without explanation.,$40 in 60 days.,LL,1
+28,29,52,29,70,60,0.016513761,,,,Would you rather have $52 in 29 days or $70 in 60 days? Answer without explanation.,$70 in 60 days.,LL,1
+29,30,85,14,170,90,0.016129032,,,,Would you rather have $85 in 14 days or $170 in 90 days? Answer without explanation.,$170 in 90 days.,LL,1
+30,31,36,0,43,14,0.013888889,,,,Would you rather have $36 now or $43 in 14 days? Answer without explanation.,$43 in 14 days.,LL,1
+31,32,44,0,48,7,0.012987013,,,,Would you rather have $44 now or $48 in 7 days? Answer without explanation.,$48 in 7 days.,LL,1
+32,33,33,0,58,60,0.012626263,,,,Would you rather have $33 now or $58 in 60 days? Answer without explanation.,$58 in 60 days.,LL,1
+33,34,75,14,112,60,0.012619372,,,,Would you rather have $75 in 14 days or $112 in 60 days? Answer without explanation.,$112 in 60 days.,LL,1
+34,35,51,14,59,29,0.012251149,,,,Would you rather have $51 in 14 days or $59 in 29 days? Answer without explanation.,$51 in 14 days.,SS,0
+35,36,46,0,62,29,0.011994003,,,,Would you rather have $46 now or $62 in 29 days? Answer without explanation.,$62 in 29 days.,LL,1
+36,37,45,14,79,90,0.011548913,,,,Would you rather have $45 in 14 days or $79 in 90 days? Answer without explanation.,$79 in 90 days.,LL,1
+37,38,38,0,76,90,0.011111111,,,,Would you rather have $38 now or $76 in 90 days? Answer without explanation.,$76 in 90 days.,LL,1
+38,39,81,29,122,90,0.010927505,,,,Would you rather have $81 in 29 days or $122 in 90 days? Answer without explanation.,$122 in 90 days.,LL,1
+39,40,56,0,60,7,0.010204082,,,,Would you rather have $56 now or $60 in 7 days? Answer without explanation.,$60 in 7 days.,LL,1
+40,41,43,0,49,14,0.009966777,,,,Would you rather have $43 now or $49 in 14 days? Answer without explanation.,$49 in 14 days.,LL,1
+41,42,26,29,32,60,0.009493671,,,,Would you rather have $26 in 29 days or $32 in 60 days? Answer without explanation.,$26 in 29 days.,SS,0
+42,43,62,0,66,7,0.00921659,,,,Would you rather have $62 now or $66 in 7 days? Answer without explanation.,$62 now.,SS,0
+43,44,74,29,148,168,0.009090909,,,,Would you rather have $74 in 29 days or $148 in 168 days? Answer without explanation.,$74 in 29 days.,SS,0
+44,45,33,14,45,60,0.008888889,,,,Would you rather have $33 in 14 days or $45 in 60 days? Answer without explanation.,$33 in 14 days.,SS,0
+45,46,47,0,59,29,0.008804109,,,,Would you rather have $47 now or $59 in 29 days? Answer without explanation.,$59 in 29 days.,LL,1
+46,47,84,0,147,90,0.008333333,,,,Would you rather have $84 now or $147 in 90 days? Answer without explanation.,$147 in 90 days.,LL,1
+47,48,83,0,124,60,0.008232932,,,,Would you rather have $83 now or $124 in 60 days? Answer without explanation.,$124 in 60 days.,LL,1
+48,49,79,29,95,60,0.008060453,,,,Would you rather have $79 in 29 days or $95 in 60 days? Answer without explanation.,$95 in 60 days.,LL,1
+49,50,81,14,122,90,0.007345038,,,,Would you rather have $81 in 14 days or $122 in 90 days? Answer without explanation.,$122 in 90 days.,LL,1
+50,51,44,0,53,29,0.007053292,,,,Would you rather have $44 now or $53 in 29 days? Answer without explanation.,$53 in 29 days.,LL,1
+51,52,45,29,61,90,0.007014467,,,,Would you rather have $45 in 29 days or $61 in 90 days? Answer without explanation.,$61 in 90 days.,LL,1
+52,53,41,0,45,14,0.006968641,,,,Would you rather have $41 now or $45 in 14 days? Answer without explanation.,$45 in 14 days.,LL,1
+53,54,34,29,60,168,0.006545821,,,,Would you rather have $34 in 29 days or $60 in 168 days? Answer without explanation.,$60 in 168 days.,LL,1
+54,55,34,14,37,29,0.006410256,,,,Would you rather have $34 in 14 days or $37 in 29 days? Answer without explanation.,$34 in 14 days.,SS,0
+55,56,46,0,92,168,0.005952381,,,,Would you rather have $46 now or $92 in 168 days? Answer without explanation.,$92 in 168 days.,LL,1
+56,57,17,0,23,60,0.005882353,,,,Would you rather have $17 now or $23 in 60 days? Answer without explanation.,$23 in 60 days.,LL,1
+57,58,65,29,75,60,0.005797101,,,,Would you rather have $65 in 29 days or $75 in 60 days? Answer without explanation.,$65 in 29 days.,SS,0
+58,59,69,14,86,60,0.005790191,,,,Would you rather have $69 in 14 days or $86 in 60 days? Answer without explanation.,$69 in 14 days.,SS,0
+59,60,79,0,118,90,0.005485232,,,,Would you rather have $79 now or $118 in 90 days? Answer without explanation.,$118 in 90 days.,LL,1
+60,61,81,14,87,29,0.00530504,,,,Would you rather have $81 in 14 days or $87 in 29 days? Answer without explanation.,$81 in 14 days.,SS,0
+61,62,67,0,77,29,0.00514668,,,,Would you rather have $67 now or $77 in 29 days? Answer without explanation.,$77 in 29 days.,LL,1
+62,63,42,0,45,14,0.005102041,,,,Would you rather have $42 now or $45 in 14 days? Answer without explanation.,$45 in 14 days.,LL,1
+63,64,28,14,30,29,0.005102041,,,,Would you rather have $28 in 14 days or $30 in 29 days? Answer without explanation.,$28 in 14 days.,SS,0
+64,65,58,0,60,7,0.004926108,,,,Would you rather have $58 now or $60 in 7 days? Answer without explanation.,$58 now.,SS,0
+65,66,23,14,31,90,0.004889976,,,,Would you rather have $23 in 14 days or $31 in 90 days? Answer without explanation.,$23 in 14 days.,SS,0
+66,67,27,29,34,90,0.004847645,,,,Would you rather have $27 in 29 days or $34 in 90 days? Answer without explanation.,$27 in 29 days.,SS,0
+67,68,24,14,29,60,0.00483559,,,,Would you rather have $24 in 14 days or $29 in 60 days? Answer without explanation.,$24 in 14 days.,SS,0
+68,69,74,0,130,168,0.004504505,,,,Would you rather have $74 now or $130 in 168 days? Answer without explanation.,$130 in 168 days.,LL,1
+69,70,80,0,85,14,0.004464286,,,,Would you rather have $80 now or $85 in 14 days? Answer without explanation.,$80 now.,SS,0
+70,71,71,0,89,60,0.004225352,,,,Would you rather have $71 now or $89 in 60 days? Answer without explanation.,$89 in 60 days.,LL,1
+71,72,84,29,126,168,0.004016064,,,,Would you rather have $84 in 29 days or $126 in 168 days? Answer without explanation.,$84 in 29 days.,SS,0
+72,73,67,0,90,90,0.003814262,,,,Would you rather have $67 now or $90 in 90 days? Answer without explanation.,$90 in 90 days.,LL,1
+73,74,68,29,75,60,0.003674541,,,,Would you rather have $68 in 29 days or $75 in 60 days? Answer without explanation.,$75 in 60 days.,LL,1
+74,75,45,29,54,90,0.003623188,,,,Would you rather have $45 in 29 days or $54 in 90 days? Answer without explanation.,$45 in 29 days.,SS,0
+75,76,23,14,29,90,0.003605769,,,,Would you rather have $23 in 14 days or $29 in 90 days? Answer without explanation.,I would rather have $23 in 14 days.,SS,0
+76,77,77,14,89,60,0.003556609,,,,Would you rather have $77 in 14 days or $89 in 60 days? Answer without explanation.,$77 in 14 days.,SS,0
+77,78,72,0,79,29,0.00335249,,,,Would you rather have $72 now or $79 in 29 days? Answer without explanation.,$79 in 29 days.,LL,1
+78,79,72,0,86,60,0.003240741,,,,Would you rather have $72 now or $86 in 60 days? Answer without explanation.,$86 in 60 days.,LL,1
+79,80,65,0,98,168,0.003021978,,,,Would you rather have $65 now or $98 in 168 days? Answer without explanation.,$98 in 168 days.,LL,1
+80,81,48,29,52,60,0.002915452,,,,Would you rather have $48 in 29 days or $52 in 60 days? Answer without explanation.,I would rather have $48 in 29 days.,SS,0
+81,82,31,29,36,90,0.002863688,,,,Would you rather have $31 in 29 days or $36 in 90 days? Answer without explanation.,$31 in 29 days.,SS,0
+82,83,73,0,79,29,0.002834199,,,,Would you rather have $73 now or $79 in 29 days? Answer without explanation.,$79 in 29 days.,LL,1
+83,84,85,0,106,90,0.002745098,,,,Would you rather have $85 now or $106 in 90 days? Answer without explanation.,$106 in 90 days.,LL,1
+84,85,76,14,79,29,0.00273224,,,,Would you rather have $76 in 14 days or $79 in 29 days? Answer without explanation.,$79 in 29 days.,LL,1
+85,86,64,29,86,168,0.002664083,,,,Would you rather have $64 in 29 days or $86 in 168 days? Answer without explanation.,$64 in 29 days.,SS,0
+86,87,31,14,37,90,0.002640845,,,,Would you rather have $31 in 14 days or $37 in 90 days? Answer without explanation.,$31 in 14 days.,SS,0
+87,88,55,0,56,7,0.002597403,,,,Would you rather have $55 now or $56 in 7 days? Answer without explanation.,$55 now.,SS,0
+88,89,68,0,78,60,0.00245098,,,,Would you rather have $68 now or $78 in 60 days? Answer without explanation.,$68 now.,SS,0
+89,90,28,0,34,90,0.002380952,,,,Would you rather have $28 now or $34 in 90 days? Answer without explanation.,$34 in 90 days.,LL,1
+90,91,51,14,56,60,0.002196837,,,,Would you rather have $51 in 14 days or $56 in 60 days? Answer without explanation.,$51 in 14 days.,SS,0
+91,92,41,0,55,168,0.00203252,,,,Would you rather have $41 now or $55 in 168 days? Answer without explanation.,$41 now.,SS,0
+92,93,36,0,37,14,0.001984127,,,,Would you rather have $36 now or $37 in 14 days? Answer without explanation.,$36 now.,SS,0
+93,94,48,14,55,90,0.001971831,,,,Would you rather have $48 in 14 days or $55 in 90 days? Answer without explanation.,$48 in 14 days.,SS,0
+94,95,18,29,20,90,0.001923077,,,,Would you rather have $18 in 29 days or $20 in 90 days? Answer without explanation.,$18 in 29 days.,SS,0
+95,96,18,0,19,29,0.001915709,,,,Would you rather have $18 now or $19 in 29 days? Answer without explanation.,$18 now.,SS,0
+96,97,38,0,39,14,0.001879699,,,,Would you rather have $38 now or $39 in 14 days? Answer without explanation.,$39 in 14 days.,LL,1
+97,98,36,14,39,60,0.001858736,,,,Would you rather have $36 in 14 days or $39 in 60 days? Answer without explanation.,$36 in 14 days.,SS,0
+98,99,34,29,42,168,0.001780151,,,,Would you rather have $34 in 29 days or $42 in 168 days? Answer without explanation.,$34 in 29 days.,SS,0
+99,100,81,14,83,29,0.00168492,,,,Would you rather have $81 in 14 days or $83 in 29 days? Answer without explanation.,$81 in 14 days.,SS,0
+100,101,84,0,92,60,0.001587302,,,,Would you rather have $84 now or $92 in 60 days? Answer without explanation.,$92 in 60 days.,LL,1
+101,102,49,0,56,90,0.001587302,,,,Would you rather have $49 now or $56 in 90 days? Answer without explanation.,$49 now.,SS,0
+102,103,70,0,88,168,0.001530612,,,,Would you rather have $70 now or $88 in 168 days? Answer without explanation.,$88 in 168 days.,LL,1
+103,104,24,29,25,60,0.001398601,,,,Would you rather have $24 in 29 days or $25 in 60 days? Answer without explanation.,$24 in 29 days.,SS,0
+104,105,72,0,78,60,0.001388889,,,,Would you rather have $72 now or $78 in 60 days? Answer without explanation.,$72 now.,SS,0
+105,106,27,29,32,168,0.001385809,,,,Would you rather have $27 in 29 days or $32 in 168 days? Answer without explanation.,$27 in 29 days.,SS,0
+106,107,25,29,27,90,0.001363327,,,,Would you rather have $25 in 29 days or $27 in 90 days? Answer without explanation.,$25 in 29 days.,SS,0
+107,108,49,14,52,60,0.001356239,,,,Would you rather have $49 in 14 days or $52 in 60 days? Answer without explanation.,$49 in 14 days.,SS,0
+108,109,26,29,27,60,0.001287001,,,,Would you rather have $26 in 29 days or $27 in 60 days? Answer without explanation.,$26 in 29 days.,SS,0
+109,110,63,14,69,90,0.00127551,,,,Would you rather have $63 in 14 days or $69 in 90 days? Answer without explanation.,$63 in 14 days.,SS,0
+110,111,50,0,60,168,0.001190476,,,,Would you rather have $50 now or $60 in 168 days? Answer without explanation.,$60 in 168 days.,LL,1
+111,112,58,0,64,90,0.001149425,,,,Would you rather have $58 now or $64 in 90 days? Answer without explanation.,$64 in 90 days.,LL,1
+112,113,35,14,38,90,0.001145913,,,,Would you rather have $35 in 14 days or $38 in 90 days? Answer without explanation.,$35 in 14 days.,SS,0
+113,114,39,14,41,60,0.001132503,,,,Would you rather have $39 in 14 days or $41 in 60 days? Answer without explanation.,$39 in 14 days.,SS,0
+114,115,32,0,33,29,0.001077586,,,,Would you rather have $32 now or $33 in 29 days? Answer without explanation.,$32 now.,SS,0
+115,116,31,29,32,60,0.001072961,,,,Would you rather have $31 in 29 days or $32 in 60 days? Answer without explanation.,$31 in 29 days.,SS,0
+116,117,42,29,48,168,0.001059322,,,,Would you rather have $42 in 29 days or $48 in 168 days? Answer without explanation.,$42 in 29 days.,SS,0
+117,118,85,29,90,90,0.000992063,,,,Would you rather have $85 in 29 days or $90 in 90 days? Answer without explanation.,$85 in 29 days.,SS,0
+118,119,69,0,75,90,0.000966184,,,,Would you rather have $69 now or $75 in 90 days? Answer without explanation.,$75 in 90 days.,LL,1
+119,120,59,14,63,90,0.000903342,,,,Would you rather have $59 in 14 days or $63 in 90 days? Answer without explanation.,$59 in 14 days.,SS,0
+120,121,25,14,26,60,0.000880282,,,,Would you rather have $25 in 14 days or $26 in 60 days? Answer without explanation.,$25 in 14 days.,SS,0
+121,122,34,0,39,168,0.00087535,,,,Would you rather have $34 now or $39 in 168 days? Answer without explanation.,$34 now.,SS,0
+122,123,40,0,42,60,0.000833333,,,,Would you rather have $40 now or $42 in 60 days? Answer without explanation.,$40 now.,SS,0
+123,124,81,29,89,168,0.000725492,,,,Would you rather have $81 in 29 days or $89 in 168 days? Answer without explanation.,$81 in 29 days.,SS,0
+124,125,16,0,17,90,0.000694444,,,,Would you rather have $16 now or $17 in 90 days? Answer without explanation.,$16 now.,SS,0
+125,126,65,0,69,90,0.000683761,,,,Would you rather have $65 now or $69 in 90 days? Answer without explanation.,$65 now.,SS,0
+126,127,53,0,54,29,0.000650618,,,,Would you rather have $53 now or $54 in 29 days? Answer without explanation.,$54 in 29 days.,LL,1
+127,128,54,29,56,90,0.000618047,,,,Would you rather have $54 in 29 days or $56 in 90 days? Answer without explanation.,$54 in 29 days.,SS,0
+128,129,29,0,30,60,0.000574713,,,,Would you rather have $29 now or $30 in 60 days? Answer without explanation.,$29 now.,SS,0
+129,130,22,0,24,168,0.000541126,,,,Would you rather have $22 now or $24 in 168 days? Answer without explanation.,$22 now.,SS,0
+130,131,83,0,90,168,0.000502008,,,,Would you rather have $83 now or $90 in 168 days? Answer without explanation.,$83 now.,SS,0
+131,132,15,29,16,168,0.000486381,,,,Would you rather have $15 in 29 days or $16 in 168 days? Answer without explanation.,$15 in 29 days.,SS,0
+132,133,83,14,86,90,0.000478774,,,,Would you rather have $83 in 14 days or $86 in 90 days? Answer without explanation.,$83 in 14 days.,SS,0
+133,134,36,0,37,60,0.000462963,,,,Would you rather have $36 now or $37 in 60 days? Answer without explanation.,$36 now.,SS,0
+134,135,43,0,46,168,0.000415282,,,,Would you rather have $43 now or $46 in 168 days? Answer without explanation.,$43 now.,SS,0
+135,136,15,0,16,168,0.000396825,,,,Would you rather have $15 now or $16 in 168 days? Answer without explanation.,$15 now.,SS,0
+136,137,34,14,35,90,0.000389105,,,,Would you rather have $34 in 14 days or $35 in 90 days? Answer without explanation.,$34 in 14 days.,SS,0
+137,138,22,29,23,168,0.000330142,,,,Would you rather have $22 in 29 days or $23 in 168 days? Answer without explanation.,$22 in 29 days.,SS,0
+138,139,52,29,54,168,0.00027894,,,,Would you rather have $52 in 29 days or $54 in 168 days? Answer without explanation.,$52 in 29 days.,SS,0
+139,140,42,0,43,90,0.00026455,,,,Would you rather have $42 now or $43 in 90 days? Answer without explanation.,$42 now.,SS,0
+140,141,63,29,64,90,0.000262192,,,,Would you rather have $63 in 29 days or $64 in 90 days? Answer without explanation.,$63 in 29 days.,SS,0
+141,142,47,29,48,168,0.000153752,,,,Would you rather have $47 in 29 days or $48 in 168 days? Answer without explanation.,$47 in 29 days.,SS,0
+142,143,39,0,40,168,0.000152625,,,,Would you rather have $39 now or $40 in 168 days? Answer without explanation.,$39 now.,SS,0

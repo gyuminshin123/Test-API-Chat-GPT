@@ -1,0 +1,115 @@
+import os
+import numpy as np
+import matplotlib
+import glob
+import matplotlib.pyplot as plt
+import pandas as pd
+from scipy import stats, optimize
+from pandas import DataFrame, Series
+import seaborn as sns
+import random as rd
+import scipy.stats
+import multiprocessing
+from scipy.stats import norm
+import statsmodels.stats.moment_helpers
+from scipy.stats import beta
+from scipy.optimize import minimize
+import statsmodels.formula.api as smf
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+import os.path as op
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+
+def flip(p):
+    return 'SS' if rd.random() < p else 'LL'
+
+def exponential(A,d,k):
+    return A * 1.0/(1.0+k*d)
+
+def run_simulation(params,sub_df):
+    k,m = params
+    choices = []
+    for i in range(sub_df.shape[0]):
+        SV_SS = exponential(sub_df.loc[i,'Smaller sooner amount ($)'],
+                            sub_df.loc[i,'Smaller sooner delay (days)'],
+                            k)
+        SV_LL = exponential (sub_df.loc[i,'Larger later amount ($)'],
+                            sub_df.loc[i,'Larger later delay (days)'],
+                            k)
+        p = 1 / (1 + np.exp(-1*m*(SV_SS-SV_LL)) )
+        choices.append(flip(p))
+    return choices
+
+
+def get_LL(params,sub_df):
+    k,m = params
+    LL = 0
+    for i in range(sub_df.shape[0]):
+        SV_SS = exponential(sub_df.loc[i,'Smaller sooner amount ($)'],
+                            sub_df.loc[i,'Smaller sooner delay (days)'],
+                            k)
+        SV_LL = exponential(sub_df.loc[i,'Larger later amount ($)'],
+                            sub_df.loc[i,'Larger later delay (days)'],
+                            k)
+
+        p = 1 / (1 + np.exp(-1*m*(SV_SS-SV_LL)) )
+
+        if sub_df.loc[i,'SS or LL'] == 'LL':
+            p = 1-p
+        LL += np.log(p)
+    return -1*LL
+
+
+data = pd.read_csv(r'C:/Users/shing/OneDrive - email.ucr.edu/Desktop/API Chat-GPT/Decision questions.csv')
+res = minimize(get_LL, [-4.5, -1], 
+               args = (data),
+               method = 'BFGS')
+
+df = []
+for i in range(100):
+
+    ks = np.linspace(.02,.03,41) 
+    ms = np.linspace(1,3, 41)
+    LL = []
+    k_idx = []
+    m_idx = []
+
+    #simulate data
+    params = (.025,2)
+    data['SS or LL'] = run_simulation(params,data)
+
+    #get LL for other ks, ms
+    for m in ms:
+        for k in ks:
+            ll = get_LL((k,m),data)
+            LL.append(ll)
+            k_idx.append(k)
+            m_idx.append(m)  
+    sub_df = pd.DataFrame({'ks':k_idx,'LL':LL, 'm':m_idx, 'i':i})
+    df.append(sub_df.copy())
+df = pd.concat(df)
+
+df['LL'] = df['LL']*-1
+df = df.groupby(['ks','m']).mean().reset_index()
+
+fig = plt.figure(figsize = (8,8))
+plt.set_cmap('Blues')
+ax = fig.gca(projection='3d')
+X, Y = np.meshgrid(ks, ms)
+Z = np.array([float(df[(df['ks'] == x) & (df['m'] == y)]['LL']) for x,y in zip(np.ravel(X), np.ravel(Y))])
+Z = Z.reshape(X.shape)
+plt.xlabel('k')
+plt.ylabel('m')
+ax.set_zlabel('LL')
+surf = ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cm.Pastel1,
+                       linewidth=0, antialiased=False)
+ax.zaxis.set_major_locator(LinearLocator(10))
+ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
+fig.colorbar(surf, shrink=.5, aspect=5)
+plt.title('Likelihood surface as a function \n of k and inverse temperature')
+plt.savefig('TD_likelihood_surface.svg',dpi = 300)
+plt.show()
+
+
+
+
