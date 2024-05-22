@@ -1,6 +1,6 @@
 
 import os
-os.environ["OPENAI_API_KEY"]='sk-proj-Cwt5VDBI2bxarMdQJZNiT3BlbkFJmYc7uqFwdjiIwIXjAcJW'
+os.environ["OPENAI_API_KEY"]=private api key
 import openai
 import pandas as pd
 file = open('Decision questions.csv')
